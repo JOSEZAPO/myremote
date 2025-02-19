@@ -1,0 +1,144 @@
+body {
+    background: linear-gradient(0deg, rgb(255, 210, 143) 100%);
+    margin: 20px 100px;
+}
+
+img {
+    background: linear-gradient(0deg, #eed953 0%, #ffffff 100%);
+}
+
+.imagen-div {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen2-div {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen3-div {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen4-div {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen5-div {
+    display: flex;
+    justify-content: center;
+}
+
+.imagen6-div {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    width: 300px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Shrikhand;
+    color: black;
+    font-size: 50px;
+    text-shadow: green;
+}
+
+.intro {
+    background: black;
+    color: white;
+    font-size: 24px;
+    padding: 25px;
+}
+
+.nav {
+    font-size: 24px;
+    margin-top: 50px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a:link {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 20px
+}
+
+.nav a:visited {
+    background-color: purple;
+}
+
+.nav a:hover {
+    background-color: transparent;
+    color: blue;
+    text-decoration: underline;
+}
+
+.nav a:active {
+    color: red;
+}
+
+#manzana-card {
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(0deg, darkblue 0%, lightcyan 100%);
+    color: white;
+    border-radius: 30px;
+}
+
+#chocolate-card {
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(0deg, brown 0%, black 100%);
+    color: white;
+    border-radius: 30px;
+}
+
+#fresa-card {
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(0deg, red 0%, green 100%);
+    color: white;
+    border-radius: 30px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: green;
+}
+
+tr:nth-child(odd) {
+    background-color: black (0, 217, 255);
+}
+
+tr:hover {
+    background-color: silver;
+}
