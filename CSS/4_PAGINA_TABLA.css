@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50; /* Verde oscuro */
+    color: white; /* Texto blanco */
+    text-align: center;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Gris claro */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Blanco */
+}
+
+tr:hover {
+    background-color: #e7f7e7; /* Gris muy claro */
+}
+
+td {
+    font-size: 16px;
+    color: #333333; /* Gris oscuro para el texto */
+}
+
+h1 {
+    color: #4CAF50; /* Verde oscuro */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- METADATAS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="pon tu nombre">
+    <meta name="description" content="proyecto de prueba">
+    <meta name="keywords" content="html, css, javascript, react, express">
+
+    <!-- Título de la página -->
+    <title>Página personal de ZAPONEITOR</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="IRON-MAN.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="IRON-MAN.jpg" width="50px" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mis Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECCIÓN PRINCIPAL (HERO) -->
+    <section class="hero align-items-stretch text-center">
+
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-estudiante rounded-circle" src="IRON-MAN.jpg" alt="Imagen del estudiante">
+            <h1>José Zapo Sixteco</h1>
+            <h2>Estudiante de Ingeniería en la UCC</h2>
+        </div>
+
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-tamanio img-fluid" src="laptop.jpg" alt="Imagen de un equipo">
+        </div>
+
+    </section>
+
+    <section id="sobre-me" class="sobre-me seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">
+                Conociendo a José Zapo
+            </h2>
+            <p class="seccion-texto">
+                Zapo, un joven explorador de la aldea de Eldoria, descubre un mapa que lo guía al Corazón de Asteria,
+                una
+                gema legendaria capaz de conceder un deseo. Emprende una peligrosa travesía hasta un templo oculto,
+                donde
+                enfrenta a una bestia de sombras. Usando su ingenio y una linterna mágica, logra disipar la criatura y
+                toma
+                la gema. En lugar de pedir riqueza o poder, desea la prosperidad de su aldea. Al regresar, encuentra
+                Eldoria
+                transformada en un lugar fértil y próspero, convirtiéndose en guardián del conocimiento y dejando una
+                leyenda que viviría para siempre.
+            </p>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+        <!-- Fuentes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+
+
+    </section>
+
+    <!-- Conocimientos -->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!--Conocimientos como desarrollador-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollador Web</p>
+                    <p>Una vez que las bibliotecas estén instaladas y configurado el ESP32 en tu Arduino IDE, podrás
+                        cargar el código en el dispositivo y empezar a publicar datos en el servidor MQTT especificado.
+                        Este código ejemplifica cómo utilizar un ESP32 para la comunicación MQTT, simulando un
+                        dispositivo que envía datos (en este caso, valores aleatorios que podrían representar datos
+                        biométricos como el ritmo cardíaco) a un servidor central, lo cual es un componente clave en
+                        muchos sistemas IoT.</p>
+                    <span class="badge rounded-pill text-bg-primary">JavaScript</span>
+                    <span class="badge rounded-pill text-bg-primary">Python</span>
+                    <span class="badge rounded-pill text-bg-primary">Ruby</span>
+                </div>
+                <!--Conocimientos como desarrollador-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollador Web</p>
+                    <p>Una vez que las bibliotecas estén instaladas y configurado el ESP32 en tu Arduino IDE, podrás
+                        cargar el código en el dispositivo y empezar a publicar datos en el servidor MQTT especificado.
+                        Este código ejemplifica cómo utilizar un ESP32 para la comunicación MQTT, simulando un
+                        dispositivo que envía datos (en este caso, valores aleatorios que podrían representar datos
+                        biométricos como el ritmo cardíaco) a un servidor central, lo cual es un componente clave en
+                        muchos sistemas IoT.</p>
+                    <span class="badge rounded-pill text-bg-primary">JavaScript</span>
+                    <span class="badge rounded-pill text-bg-primary">Python</span>
+                    <span class="badge rounded-pill text-bg-primary">Ruby</span>
+                </div>
+                <!--Conocimientos como desarrollador-->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollador Web</p>
+                    <p>Una vez que las bibliotecas estén instaladas y configurado el ESP32 en tu Arduino IDE, podrás
+                        cargar el código en el dispositivo y empezar a publicar datos en el servidor MQTT especificado.
+                        Este código ejemplifica cómo utilizar un ESP32 para la comunicación MQTT, simulando un
+                        dispositivo que envía datos (en este caso, valores aleatorios que podrían representar datos
+                        biométricos como el ritmo cardíaco) a un servidor central, lo cual es un componente clave en
+                        muchos sistemas IoT.</p>
+                    <span class="badge rounded-pill text-bg-primary">JavaScript</span>
+                    <span class="badge rounded-pill text-bg-primary">Python</span>
+                    <span class="badge rounded-pill text-bg-primary">Ruby</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos Academicos -->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo">Mis proyectos academicos</h2>
+        <h3 class="seccion-descripcion">Esta area consiste justamente en la presentación de cada uno de mis proyectos
+            que e realizado a lo largo de
+            este tiempo en UNINDETEC</h3>
+        <div class="container text-center proyecto-contenedor">
+            <div class="row">
+
+                <!-- Primer Proyecto -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="IRON-MAN.jpg">
+                        <div class="overlay">
+                            <p>Proyecto Virgula</p>
+                            <div class="iconos-contendor">
+                                <a href="#"><i class="bi bi-xbox"></i></a>
+                                <a href="#"><i class="bi bi-playstation"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Segundo Proyecto -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="IRON-MAN.jpg">
+                        <div class="overlay">
+                            <p>Proyecto Virgula</p>
+                            <div class="iconos-contendor">
+                                <a href="#"><i class="bi bi-xbox"></i></a>
+                                <a href="#"><i class="bi bi-playstation"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tercero Proyecto -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="IRON-MAN.jpg">
+                        <div class="overlay">
+                            <p>Proyecto Virgula</p>
+                            <div class="iconos-contendor">
+                                <a href="#"><i class="bi bi-xbox"></i></a>
+                                <a href="#"><i class="bi bi-playstation"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Primer Proyecto -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="IRON-MAN.jpg">
+                        <div class="overlay">
+                            <p>Proyecto Virgula</p>
+                            <div class="iconos-contendor">
+                                <a href="#"><i class="bi bi-xbox"></i></a>
+                                <a href="#"><i class="bi bi-playstation"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Primer Proyecto -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="IRON-MAN.jpg">
+                        <div class="overlay">
+                            <p>Proyecto Virgula</p>
+                            <div class="iconos-contendor">
+                                <a href="#"><i class="bi bi-xbox"></i></a>
+                                <a href="#"><i class="bi bi-playstation"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Primer Proyecto -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="IRON-MAN.jpg">
+                        <div class="overlay">
+                            <p>Proyecto Virgula</p>
+                            <div class="iconos-contendor">
+                                <a href="#"><i class="bi bi-xbox"></i></a>
+                                <a href="#"><i class="bi bi-playstation"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
