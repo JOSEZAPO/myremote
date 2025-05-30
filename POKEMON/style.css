@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #f2fcfe, #1c92d2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+input {
+  padding: 0.6rem;
+  width: 70%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.6rem;
+  margin-left: 0.5rem;
+  background-color: #ef5350;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
+
+.card img {
+  width: 150px;
+  margin: 1rem 0;
+}
+
+.card {
+  margin-top: 1.5rem;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+#pokeStats p {
+  margin: 0.3rem 0;
+}
